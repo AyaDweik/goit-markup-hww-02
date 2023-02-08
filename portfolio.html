@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Module1- HomeWork 1- WebStudio" />
+    <!---link to css stylesheet-->
+      <link rel="stylesheet" href="./css/styles.css" />
+    <!---google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!----page title-->
+    <title>WebStudio</title>
+
+    <!----embedded style-->
+    <style type="text/css">
+      /* body{
+        --familyfontrob: 'Roboto', sans-serif;
+    --familyfontral: 'Raleway', sans-serif;
+    --blackcolor:#212121;
+    --bluecolor: #2196F3;
+    --whitecolor: #FFFFFF;
+    --navycolor: #2F303A;
+    --greycolor: #757575;
+      } */
+
+      .btn{
+        cursor: pointer;
+        font-family: var(--familyfontrob);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+        color:var(--blackcolor);
+        background-color: #F5F4FA;
+        border-style: none;
+
+      }
+
+      
+      .btn:hover, .btn:focus, .btn:active{
+        color: var(--whitecolor);
+        background-color: var(--bluecolor);
+      }
+      .gallery h3{
+        font-family:var(--familyfontrob);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        color:var(--blackcolor);
+      }
+
+      .gallery p{
+        font-family:var(--familyfontrob);
+        font-size: 16px;
+        line-height: 1.9;
+        color: var(--greycolor);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="webstudio" href="./index.html">WebStudio</a>
+        <ul class="nav-headings">
+          <li><a class="link studio" href="./studio.html">Studio</a></li>
+          <li><a class="link portfolio" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="link contacts" href="#">Contacts</a></li>
+        </ul>
+      </nav>
+      <ul class="mail-tell">
+        <li>
+            <a class="link email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+
+        <li>
+            <a class="link tell" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="filter-section">
+        <ul>
+          <li><button class="btn " type="button"> All</button></li>
+          <li><button class="btn" type="button"> Web-sites</button></li>
+          <li><button class="btn"type="button" > Apps</button></li>
+          <li> <button class="btn" type="button"> Design</button></li>
+          <li><button class="btn" type="button"> Marketing</button></li>
+        </ul>
+      </section>
+
+      <section class="gallery">
+        <ul>
+          <li>
+              <img
+                src="images/portfolio/portfolio1.jpg" width="370" />
+            <h3>Technoduck</h3>
+            <p>Web-site</p>
+          </li>
+          <li>
+            
+              <img src="images/portfolio/portfolio2.jpg" width="370"/>
+            <h3>Poster New Orlean vs Golden Star</h3>
+            <p>Design</p>
+          </li>
+          <li>
+            
+              <img src="images/portfolio/portfolio3.jpg"  width="370" />
+            <h3>Seafood Restaurant</h3>
+            <p>Apps</p>
+          </li>
+          <li>
+           
+              <img src="images/portfolio/portfolio4.jpg"  width="370"/>
+           
+            <h3>Project Prime</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+           
+              <img src="images/portfolio/portfolio5.jpg"  width="370"/>
+           
+            <h3>Project Boxes</h3>
+            <p>Apps</p>
+          </li>
+          <li>
+           
+              <img src="images/portfolio/portfolio6.jpg"  width="370"/>
+           
+            <h3>Inspiration has no Borders</h3>
+            <p>Web-site</p>
+          </li>
+          <li>
+           
+              <img src="images/portfolio/porfolio7.jpg"  width="370"/>
+           
+            <h3>Limited Edition</h3>
+            <p>Design</p>
+          </li>
+          <li>
+           
+              <img src="images/portfolio/portfolio8.jpg"  width="370"/>
+           
+            <h3>Project LAB</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
+           
+              <img src="images/portfolio/portfolio9.jpg"  width="370"/>
+           
+            <h3>Growing Business</h3>
+            <p>Apps</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer-content">
+      <a class="webstudio" href="./index.html">WebStudio</a>
+      <address class="address">
+        <ul>
+          <li>
+            <a class="street" href="#">
+              695 Park Ave, New York, NY 10065, <br />
+              United States <br
+            /></a>
+          </li>
+          <li>
+            <a class="ftr footer-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class ="ftr footer-tel" href="tel:+12127724150">+1 (212) 772-41-50</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>

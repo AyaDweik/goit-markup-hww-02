@@ -1,0 +1,166 @@
+:root{
+    /*variables*/
+    --familyfontrob: 'Roboto', sans-serif;
+    --familyfontral: 'Raleway', sans-serif;
+    --blackcolor:#212121;
+    --bluecolor: #2196F3;
+    --whitecolor: #FFFFFF;
+    --navycolor: #2F303A;
+    --greycolor: #757575;
+}
+
+body{
+    font-family: var(--familyfont) ;
+    color:  var(--blackcolor);
+    
+}
+  
+  
+
+   ul{
+       list-style-type: none;
+   }
+
+  .webstudio{
+      font-family: var(--familyfontral);
+      font-size: 26px;
+      text-decoration: none;
+      color:var(--bluecolor);
+  }
+
+  .nav-headings .link,
+  .mail-tell .link{
+      
+      font-family: var(--familyfontrob);
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      line-height: 1.1;
+      color: var(--blackcolor);
+
+  }
+
+  .nav-headings .link:hover,
+  .nav-headings .link:focus,
+  .nav-headings .link:active{
+      color:var(--bluecolor);
+  }
+
+
+  .mail-tell .email,
+  .mail-tell .tell{
+      
+      color: var(--greycolor);
+  }
+
+
+
+  .first-section{
+      background-color: var(--navycolor) ;
+  }
+
+.first-section h1{
+    font-family: var(--familyfontrob);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--whitecolor);
+}
+
+
+.first-section .button-text{
+    width: 200px;
+    height: 50px;
+    background-color: var(--bluecolor);
+}
+
+.first-section .button-text{
+    font-family: var(--familyfontrob);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    cursor:pointer;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color:var(--whitecolor);
+
+}
+
+.solutions-section h3{
+    font-family: var(--familyfontrob);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    color:var(--blackcolor);
+}
+
+.solutions-section p{
+    font-family: var(--familyfontrob);
+    font-size: 14px;
+    line-height: 1;
+    color:var(--greycolor);
+}
+
+.our-team{
+    background-color: #F5F4FA;
+}
+.what-we-do h2, .our-team h2{
+    font-family:var(--familyfontrob);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--blackcolor);
+}
+
+.our-team h3{
+    font-family: var(--familyfontrob);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--blackcolor);
+}
+
+.our-team p{
+    font-family: var(--familyfontrob);
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    color: var(--greycolor);
+}
+
+.footer-content{
+  
+    font-family: var(--familyfontrob);
+    font-size: 14px;
+    line-height: 1.7;
+    
+   
+    text-decoration: none;
+    background-color: var(--navycolor);
+}
+
+
+
+.address .street{
+    
+    font-family: var(--familyfontrob);
+    font-size: 14px;
+    line-height: 1.7;
+    color:var(--whitecolor);
+    text-decoration: none;
+}
+
+
+
+.address .ftr{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
