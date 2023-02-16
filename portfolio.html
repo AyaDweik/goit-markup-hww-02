@@ -32,10 +32,13 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
+        border-radius: 4px;
+        padding: 6px 26px;
         text-align: center;
         color:var(--blackcolor);
         background-color: #F5F4FA;
         border-style: none;
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 
       }
 
@@ -44,7 +47,7 @@
         color: var(--whitecolor);
         background-color: var(--bluecolor);
       }
-      .gallery h3{
+      .gallery-heading {
         font-family:var(--familyfontrob);
         font-weight: 700;
         font-size: 18px;
@@ -52,7 +55,7 @@
         color:var(--blackcolor);
       }
 
-      .gallery p{
+      .gallery-par {
         font-family:var(--familyfontrob);
         font-size: 16px;
         line-height: 1.9;
@@ -65,9 +68,9 @@
       <nav>
         <a class="webstudio" href="./index.html">WebStudio</a>
         <ul class="nav-headings">
-          <li><a class="link studio" href="./studio.html">Studio</a></li>
-          <li><a class="link portfolio" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="link contacts" href="#">Contacts</a></li>
+          <li><a class="link  " href="./index.html">Studio</a></li>
+          <li><a class=" current-page" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="link " href="#">Contacts</a></li>
         </ul>
       </nav>
       <ul class="mail-tell">
@@ -81,7 +84,7 @@
       </ul>
     </header>
     <main>
-      <section class="filter-section">
+      <section class="gallery">
         <ul>
           <li><button class="btn " type="button"> All</button></li>
           <li><button class="btn" type="button"> Web-sites</button></li>
@@ -89,79 +92,79 @@
           <li> <button class="btn" type="button"> Design</button></li>
           <li><button class="btn" type="button"> Marketing</button></li>
         </ul>
-      </section>
 
-      <section class="gallery">
         <ul>
           <li>
               <img
                 src="images/portfolio/portfolio1.jpg" width="370" />
-            <h3>Technoduck</h3>
-            <p>Web-site</p>
+            <h3 class="gallery-heading">Technoduck</h3>
+            <p class="gallery-par">Web-site</p>
           </li>
           <li>
             
               <img src="images/portfolio/portfolio2.jpg" width="370"/>
-            <h3>Poster New Orlean vs Golden Star</h3>
-            <p>Design</p>
+            <h3 class="gallery-heading">Poster New Orlean vs Golden Star</h3>
+            <p class="gallery-par">Design</p>
           </li>
           <li>
             
               <img src="images/portfolio/portfolio3.jpg"  width="370" />
-            <h3>Seafood Restaurant</h3>
-            <p>Apps</p>
+            <h3 class="gallery-heading">Seafood Restaurant</h3>
+            <p class="gallery-par">Apps</p>
           </li>
           <li>
            
               <img src="images/portfolio/portfolio4.jpg"  width="370"/>
            
-            <h3>Project Prime</h3>
-            <p>Marketing</p>
+            <h3 class="gallery-heading">Project Prime</h3>
+            <p class="gallery-par">Marketing</p>
           </li>
           <li>
            
               <img src="images/portfolio/portfolio5.jpg"  width="370"/>
            
-            <h3>Project Boxes</h3>
-            <p>Apps</p>
+            <h3 class="gallery-heading">Project Boxes</h3>
+            <p class="gallery-par">Apps</p>
           </li>
           <li>
            
               <img src="images/portfolio/portfolio6.jpg"  width="370"/>
            
-            <h3>Inspiration has no Borders</h3>
-            <p>Web-site</p>
+            <h3 class="gallery-heading">Inspiration has no Borders</h3>
+            <p class="gallery-par">Web-site</p>
           </li>
           <li>
            
-              <img src="images/portfolio/porfolio7.jpg"  width="370"/>
+              <img src="images/portfolio/porfolio7.jpg"  width="370" alt="Limited Edition"/>
            
-            <h3>Limited Edition</h3>
-            <p>Design</p>
+            <h3 class="gallery-heading">Limited Edition</h3>
+            <p class="gallery-par">Design</p>
           </li>
           <li>
            
-              <img src="images/portfolio/portfolio8.jpg"  width="370"/>
+              <img src="images/portfolio/portfolio8.jpg"  width="370" alt="Project LAB"/>
            
-            <h3>Project LAB</h3>
-            <p>Marketing</p>
+            <h3 class="gallery-heading">Project LAB</h3>
+            <p class="gallery-par">Marketing</p>
           </li>
           <li>
            
-              <img src="images/portfolio/portfolio9.jpg"  width="370"/>
+              <img src="images/portfolio/portfolio9.jpg"  width="370" alt="Growing Business"/>
            
-            <h3>Growing Business</h3>
-            <p>Apps</p>
+            <h3 class="gallery-heading">Growing Business</h3>
+            <p class="gallery-par">Apps</p>
           </li>
         </ul>
       </section>
+
+     
     </main>
-    <footer class="footer-content">
+   <footer class="footer-content">
       <a class="webstudio" href="./index.html">WebStudio</a>
       <address class="address">
         <ul>
           <li>
-            <a class="street" href="#">
+            <a class="ftr" href="#">
               695 Park Ave, New York, NY 10065, <br />
               United States <br
             /></a>

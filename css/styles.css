@@ -28,6 +28,7 @@ body{
       color:var(--bluecolor);
   }
 
+ 
   .nav-headings .link,
   .mail-tell .link{
       
@@ -39,10 +40,20 @@ body{
       color: var(--blackcolor);
 
   }
+  
+  .nav-headings .current-page{
+      color:var(--bluecolor);
+      font-family: var(--familyfontrob);
+      font-weight: 500;
+      font-size: 14px;
+      text-decoration: none;
+      line-height: 1.1;
+  }
 
   .nav-headings .link:hover,
   .nav-headings .link:focus,
-  .nav-headings .link:active{
+  .nav-headings .link:active,
+  .mail-tell .link:hover{
       color:var(--bluecolor);
   }
 
@@ -59,7 +70,7 @@ body{
       background-color: var(--navycolor) ;
   }
 
-.first-section h1{
+.first-section-heading {
     font-family: var(--familyfontrob);
     font-weight: 900;
     font-size: 44px;
@@ -71,13 +82,8 @@ body{
 }
 
 
-.first-section .button-text{
-    width: 200px;
-    height: 50px;
+ .button-text{
     background-color: var(--bluecolor);
-}
-
-.first-section .button-text{
     font-family: var(--familyfontrob);
     font-weight: 700;
     font-size: 16px;
@@ -87,12 +93,18 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
 
     color:var(--whitecolor);
-
+}
+.button-text:hover{
+    background-color: #188CE8;
 }
 
-.solutions-section h3{
+
+.solutions-section-heading {
     font-family: var(--familyfontrob);
     font-weight: 700;
     font-size: 14px;
@@ -100,17 +112,17 @@ body{
     color:var(--blackcolor);
 }
 
-.solutions-section p{
+.solutions-section-par{
     font-family: var(--familyfontrob);
     font-size: 14px;
-    line-height: 1;
+    line-height: 1.7;
     color:var(--greycolor);
 }
 
 .our-team{
     background-color: #F5F4FA;
 }
-.what-we-do h2, .our-team h2{
+.what-we-do-heading , .our-team-heading1{
     font-family:var(--familyfontrob);
     font-weight: 700;
     font-size: 36px;
@@ -119,7 +131,7 @@ body{
     color: var(--blackcolor);
 }
 
-.our-team h3{
+.our-team-heading2 {
     font-family: var(--familyfontrob);
     font-weight: 500;
     font-size: 16px;
@@ -128,7 +140,7 @@ body{
     color: var(--blackcolor);
 }
 
-.our-team p{
+.our-team-par {
     font-family: var(--familyfontrob);
     font-size: 16px;
     line-height: 1.2;
@@ -148,19 +160,18 @@ body{
 }
 
 
-
-.address .street{
-    
-    font-family: var(--familyfontrob);
-    font-size: 14px;
-    line-height: 1.7;
-    color:var(--whitecolor);
-    text-decoration: none;
+.address{
+    font-style: normal;
 }
 
 
 
-.address .ftr{
+ .ftr{
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    
+}
+
+.ftr:hover{
+    color:var(--whitecolor);
 }
