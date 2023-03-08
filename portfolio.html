@@ -15,17 +15,9 @@
     <title>WebStudio</title>
 
     <!----embedded style-->
+    <!--minor adjustments-->
     <style type="text/css">
-      /* body{
-        --familyfontrob: 'Roboto', sans-serif;
-    --familyfontral: 'Raleway', sans-serif;
-    --blackcolor:#212121;
-    --bluecolor: #2196F3;
-    --whitecolor: #FFFFFF;
-    --navycolor: #2F303A;
-    --greycolor: #757575;
-      } */
-
+    
       .btn{
         cursor: pointer;
         font-family: var(--familyfontrob);
@@ -38,15 +30,19 @@
         color:var(--blackcolor);
         background-color: #F5F4FA;
         border-style: none;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+        /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); */
 
       }
 
       
-      .btn:hover, .btn:focus, .btn:active{
+      .btn:hover, .btn:focus, .btn:active, .current-filter {
         color: var(--whitecolor);
         background-color: var(--bluecolor);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+
       }
+
+  
       .gallery-heading {
         font-family:var(--familyfontrob);
         font-weight: 700;
@@ -86,7 +82,7 @@
     <main>
       <section class="gallery">
         <ul>
-          <li><button class="btn " type="button"> All</button></li>
+          <li><button class="btn current-filter " type="button"> All</button></li>
           <li><button class="btn" type="button"> Web-sites</button></li>
           <li><button class="btn"type="button" > Apps</button></li>
           <li> <button class="btn" type="button"> Design</button></li>
